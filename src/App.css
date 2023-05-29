@@ -1,0 +1,184 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+  background-color: darkseagreen;
+  background-image: url(./components/img/back.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.app-name {
+  font-size: 2.3rem;
+}
+
+/* app box */
+.App {
+
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.25);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.6px);
+-webkit-backdrop-filter: blur(8.6px);
+border: 1px solid rgba(255, 255, 255, 0.12);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 500px;
+  min-height: 440px;
+  /* background-color: red; */
+  /* background-color: rgba(226, 226, 226, 0.2); */
+  /* background-color: darkseagreen; */
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* City Search  */
+.city-search {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  /* background-color: rgba(226, 226, 226, 0.6); */
+  background-image: url(./components/img/searchicon.jpg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.city-search:focus {
+  width: 60%;
+  /* background-color: white; */
+}
+
+/* city name */
+.city-name {
+  font-size: 1.25em;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* current date */
+.date {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+/* weather icon and temp */
+.icon-temp {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1e2432;
+  text-align: center;
+}
+
+.deg {
+  font-size: 2rem;
+}
+
+/* weather description and wind speed */
+.des-wind {
+  font-weight: 500;
+}
+
+/* Error message */
+.error-message {
+  display: block;
+  text-align: center;
+  color: rgb(20, 2, 2);
+  font-size: 30px;
+  margin-top: auto;
+}
+
+
+.more-details{
+  background-color: seashell;
+  border-radius: 20px;
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;  
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.61);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.6px);
+-webkit-backdrop-filter: blur(8.6px);
+border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.more-details-overcast{
+  /* background-color: rgb(167, 39, 226); */
+  border-radius: 20px;
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;  
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.61);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.6px);
+-webkit-backdrop-filter: blur(8.6px);
+border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.green_btn-home{
+  margin: auto;
+  border: none;
+	outline: none;
+	padding: 4px ;
+	background-color: rgb(53, 235, 123);
+	border-radius: 20px;
+  height: 40px;
+  /* padding: 20px; */
+	width: 100px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+
+
+/* footer css here  */
+
+
+.footer {
+  width: 100%;
+  /* height: 15rem; */
+  background-image: linear-gradient(to bottom, #1c64f2, #5a67d8);
+  /* margin-top: 7rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.footer_para {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.footer_a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
