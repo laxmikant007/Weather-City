@@ -5,7 +5,8 @@ import React from 'react';
 import { useState } from 'react';
 import {  useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Loader from "./Loader"
+import Loader from "./Loader";
+import Footer from './Footer';
 
 import "../App.css";
 
@@ -92,7 +93,8 @@ function Weather() {
   }
 
   return (
-    <div className='App'>
+    <>
+    <div className='App' style={{  display: 'flex', flexDirection: 'column' }}>
       <div style={{display:'flex', flexDirection:'row'}}>
 
       <h1 style={{color:'white', marginLeft:70}} className="app-name">
@@ -102,7 +104,7 @@ function Weather() {
       {/* <Link to="/login"> */}
 
       <button onClick={handleSign}  className='green_btn-home'>
-							Sing In
+							Sign In
 						</button>
 
       {/* </Link> */}
@@ -170,6 +172,8 @@ function Weather() {
         </div>
       )}
     </div>
+    <Footer/>
+    </>
   );
 }
 
