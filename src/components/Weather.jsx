@@ -61,7 +61,8 @@ function Weather() {
       setQuery('');
       setWeather({ ...weather, loading: true });
       const url = 'https://api.openweathermap.org/data/2.5/weather';
-      const appid = 'f00c38e0279b7bc85480c3fe775d518c';
+      
+      const appid = '47b4deb9e36114bcd42c8b1727c8ec13';
 
       
       //console.log('Enter');
