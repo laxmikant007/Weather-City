@@ -6,8 +6,7 @@ import { useState } from 'react';
 import {  useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Loader from "./Loader"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFrown } from '@fortawesome/free-solid-svg-icons';
+
 import "../App.css";
 
 // require('dotenv').config();
@@ -136,7 +135,7 @@ function Weather() {
           <br />
           <br />
           <span className="error-message">
-            <FontAwesomeIcon icon={faFrown} />
+           
             <span style={{ 'font-size': '20px' }}> Sorry, City not found</span>
           </span>
         </>
