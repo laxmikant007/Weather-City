@@ -4,9 +4,10 @@
 }
 
 html {
-  height: 100%;
-  margin: 0;
-
+  /* height: 100%; */
+  /* margin: 0; */
+  /* border: 2px solid black; */
+  /* min-height: 80%; */
 
   /* background-color: darkseagreen; */
   background-image: url(./components/img/back.jpg);
@@ -22,14 +23,14 @@ html {
 
 /* app box */
 .App {
-
+  /* border : 2px solid black; */
   /* From https://css.glass */
 background: rgba(255, 255, 255, 0.25);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(8.6px);
 -webkit-backdrop-filter: blur(8.6px);
-border: 1px solid rgba(255, 255, 255, 0.12);
+border: 1px solid rgba(255, 255, 255, 0.12);   
 
 
   display: flex;
@@ -165,15 +166,20 @@ border: 1px solid rgba(255, 255, 255, 0.03);
 
 
 .footer {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
   width: 100%;
   /* height: 15rem; */
   background-image: linear-gradient(to bottom, #1c64f2, #5a67d8);
-  /* margin-top: 7rem; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
 }
 
 .footer_para {
@@ -182,7 +188,8 @@ border: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .footer_a {
-  font-family: 'Poppins', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
   font-size: 1.5rem;
   font-weight: 600;
 }

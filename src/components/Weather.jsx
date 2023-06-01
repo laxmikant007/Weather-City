@@ -172,7 +172,6 @@ function Weather() {
         </div>
       )}
     </div>
-    <Footer/>
     </>
   );
 }
